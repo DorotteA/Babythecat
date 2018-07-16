@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8" />
+	<title>Task 4</title>
+	<script type="text/javascript">function tb8_makeArray(n){this.length = n;return this.length;}
+    tb8_messages = new tb8_makeArray(3);tb8_messages[0] = "Task 4";
+    tb8_messages[1] = "Task 4";
+    tb8_messages[2] ="Task 4";tb8_rptType = 'infinite';tb8_rptNbr = 5;tb8_speed = 100;tb8_delay = 2000;var tb8_counter=1;var tb8_currMsg=0;var tb8_tekst ="";var tb8_i=0;var tb8_TID = null;function tb8_pisi(){tb8_tekst = tb8_tekst + tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i+1);document.title = tb8_tekst;tb8_sp=tb8_speed;tb8_i++;if (tb8_i==tb8_messages[tb8_currMsg].length){tb8_currMsg++; tb8_i=0; tb8_tekst="";tb8_sp=tb8_delay;}if (tb8_currMsg == tb8_messages.length){if ((tb8_rptType == 'finite') && (tb8_counter==tb8_rptNbr))
+    {clearTimeout(tb8_TID);return;}tb8_counter++;tb8_currMsg = 0;}tb8_TID = setTimeout("tb8_pisi()", tb8_sp);}
+    tb8_pisi()</script>
+	<link rel="stylesheet" href="../css2/stil4.css" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+		<header class="naslov" >
+		<h1>Entrance Examination</h1>
+	</header>
+	
+	<p class="sve">Entrance Examination of the 2nd year undergraduate study of Informaton science 4th semester</p>
+	<dialog>Please make sure you have the right to go to the exam before signing up</dialog>
+<br />
+<div class="sve">
+	<fieldset>
+		<label for="ime">Name and Lastname</label>
+			<input type="text" name="name" id="name" value="" placeholder="Jane Doe"/>
+	</fieldset>
+<br />
+<br />
+	<fieldset>
+		<label for="email">E-mail</label>
+			<input id="email" type="email" />
+	</fieldset>
+<br />
+<br />	
+	<form action="test.php" method="post">
+	<fieldset>
+		<legend>Exams </legend>
+			<label>Exams for Compulsory Courses</label>
+				<input type="radio">
+					<label >Data Protection </label>
+				<input type="radio">
+					<label >Databases 2.</label>
+				<input type="radio">
+					<label >Formating the contents for a digital library</label>
+				<input type="radio">
+					<label >Information organization 2.</label>
+				<input type="radio">
+					<label >Business Communication</label>
+	</fieldset>
+	</form>
+<br />
+<br />	
+	<form action="test.php" method="post"></form>
+	<fieldset>
+		<legend>Exams</legend>
+			<label>Exam for an elective course</label>
+			<input list="ip" name="ip" />
+			<datalist id="ip">
+				<option value="Organization and operation of information institutions 2.">
+				<option value="English for Humanities and Social Sciences 4.">
+				<option value="Sociology of Books and Reading 2.">
+			</datalist>
+	</fieldset>
+<br />
+<br />	
+	<label>Entrance Examination </label>
+		<select>
+			<optgroup label="June">
+				<option value="posl">Business Communication</option>
+				<option value="org">Information organization 2.</option>
+			</optgroup>
+			<optgroup label="Sedmi mjesec">
+				<option value="zas">Data Protection</option>
+				<option value="baz">Databases 2.</option>
+				<option value="obl">Formating the contents for a digital library</option>
+				<option value="orgip">Organization and operation of information institutions 2.</option>
+				<option value="eng">English for Humanities and Social Sciences 4.</option>
+				<option value="soc">Sociology of Books and Reading 2.</option>
+			</optgroup>
+		</select>
+<hr />
+<div class="example5">
+<h4><q>We wish you luck!</q></h4>
+</div>
+<hr />
+	<button type="button" onclick="alert('You have successfully registered the exam')">Exam enter<</button>
+<br />
+<br />
+	<details>
+		<summary> <h3 class="naslov">Results</h3></summary>
+			<p>Exam results will be released after the correction
+				<meter min="0" max="50" value="0"> </meter></p>
+			<input type="range" name="b" value="2" />
+			<input type="number" name="a" value="1" /> =
+			<output name="result">50</output> 
+		<p>Corrected exams<progress value="0" max="100">0 %</progress></p>
+	</details>
+	</div>
+
+<p>Other works
+<br />
+<a href="../Task1/OSC1.html">Osijek Softwere City</a>
+<br />
+<a href="../Task2/Html2.html">Book</a>
+<br />
+<a href="../Task3/TPZNM.html">How to make a song</a>
+<br />
+<a href="../index.html">My pet (latest)</a>
+</p>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+html {
+  	font-family: Helvetica, Arial, sans-serif;
+  	font-size: 13px;
+	background-color: #0D84ED;
+}
+.naslov{
+	font-size: 100%;
+	color: black;
+	text-align: center;
+	position: relative;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+#header {
+
+    width: auto;
+    height:calc(115vh - 80px);
+    background-image: url("osc_1naslovna.jpg");
+    background-repeat:no-repeat;
+    background-attachment:relative;
+    background-size:cover;
+    background-position:center;
+    display:block;
+
+}
+
+figure {
+	text-align: center;
+}
+
+h4 {
+	text-align: left;
+}
+p {
+	text-align: left;
+	
+}
+.linkovi{
+	margin-top: 3em;
+	margin-bottom: 3em;
+	margin-left: 3em;
+	margin-right: 3em;
+	
+}
+dl{
+	background-color: #FBC9C0;
+	opacity: 0.8;
+}
+hr {
+    border-color: #F0E530;
+}

@@ -1,0 +1,99 @@
+html{
+	background-color: #D9B578;
+}
+*{
+	font-family: 'Arial', sans-serif;
+}
+@media only screen{
+	div{
+		color:red;
+		font-size: 0.5em;
+	}
+}
+
+@media only screen and (min-width:600px){
+	div{
+		color:blue;
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width:960px){
+	div{
+		color:black;
+	}
+}
+
+p{
+	background-color: #9E8458;
+	
+}
+
+.pozadina{
+	background-color: #9E8458;
+}
+
+h1{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 1em;
+}
+
+h3{
+	text-align: center;
+}
+
+figure{
+	text-align: center;
+}
+
+.napravila{
+	text-align: left;
+	font-family: Courier new;
+}
+
+dl{
+	border: 4px;
+	border-left-color: #54462F;
+	border-top-color: #54462F;
+	border-bottom-color: #54462F;
+	border-right-color: #54462F;
+	border-style: dashed;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.knjiga{
+	width: 200px;
+	height: 200px;
+	animation-name: book;
+	animation-duration: 3s;
+}
+
+dd{
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.list{
+	list-style: circle;
+}
+
+.smjer{
+	direction: rtl; 
+  unicode-bidi: embed; 
+}
+
+.text{
+	text-underline-position: under;
+}

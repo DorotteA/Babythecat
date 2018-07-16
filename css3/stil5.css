@@ -1,0 +1,109 @@
+html{
+	font-family: 'Calibri';
+	background-color: Black;
+	text-align: center;
+
+}
+body{
+		color: white;
+}
+@media only screen{
+	p{
+		font-size: 0.5em;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	p{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 960px){
+	p{
+		font-size: 1.2em;
+	}
+}
+.navbar{
+      background-color: white;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 99%;
+      font-family: 'Calibri';
+	  text-align: right;
+  }
+
+/* Style the links inside the navigation bar */
+.navbar a{
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+/* Change the color of links on hover */
+.navbar a:hover{
+      background-color: white;
+      color: black;
+  }
+
+/* Add a color to the active/current link */
+.navbar a.active{
+      background-color: white;
+      color: black;
+  }
+.container{
+  height: 50%;
+  width: 80%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.down{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+i {
+	border: solid #7F7D7A;
+	border-width: 0 6px 6px 0;
+	display: inline-block;
+	padding: 8px;
+	margin-left: 50%;
+	margin-right: 50%;
+	margin-top: 200px;
+}
+#des{
+	font-size: 18pt;
+	display: block;
+	color: white;
+	font-weight: 300;
+	text-align: left;
+	margin-left: 50px;
+	padding-top: 5%;
+}
+i.#pic{
+border: solid #7F7D7A;
+border-width: 0 6px 6px 0;
+display: inline-flex;
+padding: 8px;
+margin-left: 50%;
+margin-top: -100%;
+}
+i.#vid{
+	border: solid #7F7D7A;
+	border-width: 0 6px 6px 0;
+	display: inline-flex;
+	padding: 8px;
+	margin-left: 50%;
+	margin-top: -70%;
+}
